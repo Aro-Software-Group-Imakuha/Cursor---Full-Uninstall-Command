@@ -2,4 +2,10 @@
 chmod +x uninstall_cursor.sh で実行権限を付与します。
 ./uninstall_cursor.sh で実行します。
 
+Windowsの場合:
+1. PowerShellを管理者として実行します。
+2. スクリプトの実行を許可するために、以下のコマンドを実行します:
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. uninstall_cursor_windows.ps1 を実行します。
+
 ※完全に自己責任で使用してください。必ず。私達は一切の責任を取りません。
